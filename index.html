@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Jay's Engineering Portfolio — Electrical Engineering, Hardware, Robotics." />
+  <title>Jay | Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top">Jay</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button id="themeToggle" class="btn ghost" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <p class="tag">Electrical Engineering • Hardware • Robotics</p>
+        <h1>Building real systems, not just ideas.</h1>
+        <p class="subtitle">
+          I'm <strong>Jay</strong>. I design circuits, build prototypes, and document everything.
+          This portfolio is a living log of my engineering growth.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="assets/resume.pdf" target="_blank" rel="noreferrer">Resume (PDF)</a>
+          <a class="btn ghost" href="https://github.com/JS2028EE" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn ghost" href="mailto:jhostins099@icloud.com">Email</a>
+        </div>
+
+        <div class="hero-metrics">
+          <div class="metric">
+            <div class="metric-num" id="metricProjects">—</div>
+            <div class="metric-label">Projects</div>
+          </div>
+          <div class="metric">
+            <div class="metric-num" id="metricBuilds">—</div>
+            <div class="metric-label">Build Logs</div>
+          </div>
+          <div class="metric">
+            <div class="metric-num">EE</div>
+            <div class="metric-label">Focus</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card profile-card">
+          <img class="avatar" src="assets/avatar.png" alt="Jay avatar (optional)" onerror="this.style.display='none'" />
+          <div class="profile-meta">
+            <h2>Jay</h2>
+            <p class="muted">Student • Focus: EE hardware, systems, robotics</p>
+            <ul class="mini-list">
+              <li>📍 Rhode Island / USA</li>
+              <li>🛠 Tools: KiCad, Arduino-style boards, Python, C/C++</li>
+              <li>📬 <a href="mailto:jhostins099@icloud.com">jhostins099@icloud.com</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card now-card">
+          <h3>Now</h3>
+          <p class="muted">What I’m working on this week:</p>
+          <ul id="nowList" class="checklist"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="muted">Each project should eventually include goals, constraints, design decisions, tests, and what I’d improve.</p>
+      </div>
+
+      <div class="filters">
+        <input id="searchInput" class="input" type="search" placeholder="Search projects (e.g., pcb, sensor, robotics)..." />
+        <select id="tagSelect" class="input">
+          <option value="">All tags</option>
+        </select>
+      </div>
+
+      <div id="projectsGrid" class="grid"></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p class="muted">What I can do now — and what I’m actively leveling up.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="card">
+          <h3>Core</h3>
+          <ul class="pill-list">
+            <li>Circuits (basics + safety)</li>
+            <li>PCB design (KiCad)</li>
+            <li>Microcontrollers (Arduino-style)</li>
+            <li>Python basics (automation, math)</li>
+            <li>C/C++ basics (embedded)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Currently improving</h3>
+          <ul class="pill-list">
+            <li>Analog design (amplifiers, filters)</li>
+            <li>Digital logic + timing</li>
+            <li>Control systems basics</li>
+            <li>Testing methodology + documentation</li>
+            <li>Engineering writing (clear, structured)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section id="timeline" class="section">
+      <div class="section-head">
+        <h2>Timeline</h2>
+        <p class="muted">Consistency beats “big ideas.”</p>
+      </div>
+
+      <div class="card">
+        <ol class="timeline">
+          <li>
+            <div class="t-date">2026</div>
+            <div class="t-body">
+              <strong>Started structured EE curriculum + documented builds</strong>
+              <div class="muted">Weekly progress + project logs.</div>
+            </div>
+          </li>
+          <li>
+            <div class="t-date">2025</div>
+            <div class="t-body">
+              <strong>KiCad + PCB thinking</strong>
+              <div class="muted">Moved from wiring to designing.</div>
+            </div>
+          </li>
+          <li>
+            <div class="t-date">Next</div>
+            <div class="t-body">
+              <strong>Ship 3 complete projects</strong>
+              <div class="muted">With test data + reflections.</div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="muted">If you’re a mentor/teacher/program organizer/collaborator — reach out.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="card">
+          <h3>Links</h3>
+          <ul class="links">
+            <li><a href="https://github.com/JS2028EE" target="_blank" rel="noreferrer">GitHub: JS2028EE</a></li>
+            <li><a href="mailto:jhostins099@icloud.com">Email: jhostins099@icloud.com</a></li>
+          </ul>
+          <p class="muted small">Tip: keep this email professional for programs/applications.</p>
+        </div>
+
+        <div class="card">
+          <h3>Quick message template</h3>
+          <p class="muted small">
+            “Hi, I’m Jay — a student focused on EE hardware and robotics. Here’s my portfolio and a project I’m proud of: [link].
+            I’d love feedback on [specific thing].”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="muted small">© <span id="year"></span> Jay • Built with HTML/CSS/JS • Hosted on GitHub Pages</div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
