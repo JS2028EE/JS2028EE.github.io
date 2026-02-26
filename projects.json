@@ -1,0 +1,36 @@
+{
+  "now": [
+    "Finish 1 build log with photos + test results",
+    "Ship one small PCB in KiCad (even if it’s simple)",
+    "Publish one short engineering video with a clean script"
+  ],
+  "projects": [
+    {
+      "title": "Mini Submarine Prototype (Control + Sensors)",
+      "description": "Compact underwater prototype: control board, propulsion, and basic sensing. Focus: constraints, waterproofing, power, and iterative testing.",
+      "tags": ["robotics", "embedded", "prototype"],
+      "status": "In progress",
+      "repo": "https://github.com/JS2028EE/mini-submarine",
+      "demo": "",
+      "year": 2026
+    },
+    {
+      "title": "iPhone-Size Solar + Thermal Safety Experiment",
+      "description": "Small solar panel experiment with cold/heat monitoring and safety constraints. Focus: realistic power budgeting and thermal design.",
+      "tags": ["energy", "sensors", "design"],
+      "status": "Planned",
+      "repo": "https://github.com/JS2028EE/solar-thermal-safe",
+      "demo": "",
+      "year": 2026
+    },
+    {
+      "title": "PCB Practice: Power + Protection Board (KiCad)",
+      "description": "A simple board to practice good layout: input protection, regulation, test pads, and documentation.",
+      "tags": ["pcb", "kicad", "hardware"],
+      "status": "In progress",
+      "repo": "https://github.com/JS2028EE/power-protection-pcb",
+      "demo": "",
+      "year": 2026
+    }
+  ]
+}
